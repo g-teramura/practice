@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    background-color: #343A46;
+}
+
+.header-content {
+    display: flex;　 /*横に並べる*/ 
+    justify-content: space-between; /*左右一杯に配置する*/ 
+    max-width: 980px;
+    align-items: center;
+    padding: 20px 10px;
+    margin: auto; /*左右のマージンを均等にする*/ 
+}
+
+.logo {
+    width: 130px;
+    height: 40px;
+}
+
+.menu-link {
+    font-size: 14px;
+    color: white;
+    margin-right: 24px;
+    font-family: "HiraKakuPro", sans-serif;
+    font-weight: 600;
+}
+
+.menu-link:last-child {
+    margin-right: 0;
+}
