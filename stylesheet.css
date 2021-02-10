@@ -4,12 +4,15 @@
 }
 
 .header-content {
-    display: flex;　 /*横に並べる*/ 
-    justify-content: space-between; /*左右一杯に配置する*/ 
+    display: flex;
+    /*横に並べる*/
+    justify-content: space-between;
+    /*左右一杯に配置する*/
     max-width: 980px;
     align-items: center;
     padding: 20px 10px;
-    margin: auto; /*左右のマージンを均等にする*/ 
+    margin: auto;
+    /*左右のマージンを均等にする*/
 }
 
 .logo {
@@ -27,4 +30,85 @@
 
 .menu-link:last-child {
     margin-right: 0;
+}
+
+.inner-content {
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+}
+
+/*フッダーフッダーフッダーフッダーフッダーフッダーフッダーフッダー*/
+
+.footer {
+    width: 100%;
+    background-color: #343A46;
+}
+
+.link-area {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    align-items: flex-start;
+    padding: 80px 10px;
+    margin: auto;
+}
+
+.link-content {
+    display: flex;
+    margin-right: 24px;
+}
+
+.link-mass {
+    margin-right: 40px;
+}
+
+.link-text {
+    list-style: none;
+}
+
+/*各ページへのリンク*/
+
+.link-mass-title {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.link-text {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+/*SNSアイコンsvg*/
+
+.sns-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.sns-link{
+    margin-right: 24px;
+}
+
+.sns-link:last-child{
+    margin-right: 0;
+}
+
+/*copy-area*/
+
+.copy-area {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    align-items: flex-end;
+    margin: auto;
+    padding: 0px 10px 80px 10px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
 }
